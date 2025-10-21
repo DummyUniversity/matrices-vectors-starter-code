@@ -31,3 +31,5 @@ void Matrix::print() const
 	}
 
 }
+
+void Matrix::printMatrixSize() const {}
