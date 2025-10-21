@@ -28,6 +28,7 @@ public:
 	double getDeterminant() const;
 
 	void print() const;
+	void printMatrixSize() const;
 };
 
 #endif
