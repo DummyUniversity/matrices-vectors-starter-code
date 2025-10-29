@@ -15,7 +15,7 @@ public:
 	Vector(const Vector& other);
 	Vector& operator = (const Vector& other);
 	Vector operator * (const double scalar) const;
-	Vector getDotProduct(const Vector& other, const double theta) const;	//Dot product
+	double getDotProduct(const Vector& other, const double theta) const;	//Dot product
 	Vector operator * (const Vector other) const;	//Cross product
 	
 	double getX() const;
@@ -34,3 +34,4 @@ public:
 
 
 #endif
+
