@@ -20,7 +20,7 @@ public:
 	void set (const int i, const double value);
 	double get (const int i, const int j) const;
 	void set (const int i, const int j, const double value);
-	Matrix getTranspose(const Matrix& m) const;
+	Matrix getTranspose() const;
 	Matrix operator + (const Matrix& other) const;
 	Matrix operator - (const Matrix& other) const;
 	Matrix operator * (const Matrix& other) const;
@@ -32,3 +32,4 @@ public:
 };
 
 #endif
+
