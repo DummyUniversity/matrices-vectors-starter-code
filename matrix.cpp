@@ -12,7 +12,7 @@ double Matrix::get (const int i) const {}
 void Matrix::set (const int i, const double value) {}
 double Matrix::get (const int i, const int j) const {}
 void Matrix::set (const int i, const int j, const double value) {}
-Matrix Matrix::getTranspose(const Matrix& m) const {}
+Matrix Matrix::getTranspose() const {}
 Matrix Matrix::operator + (const Matrix& other) const {}
 Matrix Matrix::operator - (const Matrix& other) const {}
 Matrix Matrix::operator * (const Matrix& other) const {}
@@ -33,3 +33,4 @@ void Matrix::print() const
 }
 
 void Matrix::printMatrixSize() const {}
+
